@@ -1,5 +1,5 @@
 # Henry-ToDo-List (Spring Boot - React)
-Spring Boot E-commerce website with Spring Data JPA, Spring Security In addition to Front-End development and Deployment.
+To Do List website using Spring Boot in Back-End with React in Front-End development with Deployment.
 
 https://henry-todo-list.herokuapp.com
 
