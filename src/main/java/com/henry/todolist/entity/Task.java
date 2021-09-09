@@ -21,8 +21,8 @@ public class Task {
 
     private String name;
 
-    private Date dueDate;
     private Date startDate;
+    private Date dueDate;
 
     private String repeated;
     private boolean complete;
