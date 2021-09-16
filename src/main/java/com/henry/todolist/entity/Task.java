@@ -13,18 +13,27 @@ import java.util.Objects;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "task")
 public class Task {
 
     @Id
+    @Column(name = "task_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+    @Column(name = "task_name")
     private String name;
 
+    @Column(name = "task_start_date")
     private Date startDate;
+
+    @Column(name = "task_due_date")
     private Date dueDate;
 
+    @Column(name = "task_repeated")
     private String repeated;
+
+    @Column(name = "task_complete")
     private boolean complete;
 
     @Override
