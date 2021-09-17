@@ -15,9 +15,7 @@ import java.util.Objects;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "task")
-public class Task implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Task {
 
     @Id
     @Column(name = "task_id")
